@@ -1,5 +1,7 @@
+#taking user input
 print("Welcome to treasure Island!.\nYour mission is to find the treasure")
 cross_road = input("You're at a crossroad.where do you want to go? Type 'left' or 'right'? ")
+#checking conditions with nested if/else statements
 if cross_road == "left":
     print("You came to a lake")
     lake =input("'wait' or 'swim'? ")
